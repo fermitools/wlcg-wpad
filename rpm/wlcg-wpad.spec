@@ -1,6 +1,6 @@
 Summary: WLCG Web Proxy Auto Discovery
 Name: wlcg-wpad
-Version: 1.31
+Version: 1.32
 Release: 1%{?dist}
 BuildArch: noarch
 Group: Applications/System
@@ -59,6 +59,9 @@ fi
 
 
 %changelog
+* Thu Oct 30 2025 Dave Dyktrra <dwd@cern.ch> 1.32-1
+- Switch to the new name for the geo db, iplocation.mmdb.
+
 * Thu Jul 11 2024 Dave Dyktrra <dwd@cern.ch> 1.31-1
 - Switch to using 'isp' instead of 'organization' in maxmind DB because
   it is more consistent between IPv4 and IPv6.

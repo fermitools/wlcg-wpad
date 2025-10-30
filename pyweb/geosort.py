@@ -10,7 +10,7 @@ import socket
 import time
 import maxminddb
 
-gireader = maxminddb.open_database("/var/lib/cvmfs-server/geo/GeoLite2-City.mmdb")
+gireader = maxminddb.open_database("/var/lib/cvmfs-server/geo/iplocation.mmdb")
 
 proxygirs = {}
 lookup_ttl = 60*5       # 5 minutes
